@@ -50,8 +50,8 @@ const CONFIG = {
   DASHBOARD_SHEET: 'Dashboard',
 
   // Box API — fill in after completing Box setup guide
-  BOX_CLIENT_ID:     'w4nxs7myhnmqf8u062j62ewwtfgg84dn',
-  BOX_CLIENT_SECRET: 'UpRq55On9VQAp5LVmqh0Aj4MG2OJo2Ej',
+  BOX_CLIENT_ID:     'YOUR_CLIENT_ID_HERE',
+  BOX_CLIENT_SECRET: 'YOUR_CLIENT_SECRET_HERE',
   BOX_ACCESS_TOKEN:  '',
 
   // CPM targets (update if Amazon changes yours)
