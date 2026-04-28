@@ -1,5 +1,72 @@
+# BOX files
 .clasprc.json
 .clasp.json
 node_modules/
 
 credentials.txt
+[Bb][Oo][Xx]*credentials*.txt
+
+# Environment variables and secrets
+.env
+*.env
+.env.local
+.env.*.local
+[Cc]onfidential*
+[Ss]ecret*
+[Dd]ebug*
+
+# Google credentials
+google_credentials*.json
+google_oauth_client*.json
+google_oauth_token*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyo
+*.pyd
+venv*/
+env/
+ENV/
+
+# IDE settings (VSCode, PyCharm, etc.)
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Microsoft Office backup files
+~$*
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+*.log.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+junk*
+
+# Backups of project files
+*BK202*.*
+
+# Browser
+browser_data*/
+verbose*.png
+debug*.png
+page_dump*.json
+screenshot*.png
